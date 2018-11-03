@@ -4,9 +4,11 @@
 
 	<title>Connect</title>
 
-	<link rel="stylesheet" type="text/css" href="/connect/css/main.css">
 
 	<?php include '../includes/header.html';?>
+
+	<link rel="stylesheet" type="text/css" href="/connect/css/main.css">
+
 
 <div>Connect</div>
 

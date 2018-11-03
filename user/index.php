@@ -4,11 +4,10 @@
 
 	<title>User Home</title>
 
-	<link rel="stylesheet" type="text/css" href="/user/css/main.css">
 
 	<?php include '../includes/header.html';?>
 
-
+	<link rel="stylesheet" type="text/css" href="/user/css/main.css">
 
 	<div>
 		<h1>This is my dashboard</h1>
