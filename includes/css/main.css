@@ -36,6 +36,9 @@
     font-size: 36px;
     margin-left: 50px;
 }
+.navbar{
+    box-sizing: border-box;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
