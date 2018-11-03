@@ -22,6 +22,7 @@
 		<a href="#" onclick ="disclaimer()">Call</a>
 		
 		<a href="resources.php">Resources</a>
+		<a href="\Blog">Angel Stories</a>
 	</div>
 	<script>
 		function disclaimer(){
