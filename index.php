@@ -3,15 +3,9 @@
 <head>
 
 	<title>Home</title>
-
-
-
 	<?php include 'includes/header.html';?>
 
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	
-
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 	
 	<div class = "mainWrapper">
 		<div class = "talkTextButtons">
@@ -46,14 +40,12 @@
 	</script>
 	
 	<div>
-		<a href="/user/login">Login</a>
+		<a class="loginbtn" href="/user/login">Login</a>
 	</div>
 	<div>
 		<a href="/user/new">Create Account</a>
 
-	</div>
-		
-	
+    </div>
 
 	<script type="text/javascript" src = "js/main.js"></script>
 
