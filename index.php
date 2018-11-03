@@ -18,7 +18,10 @@
 	<div>
 		<h1>Talk to an Angel</h1>
 		<a href="https://sample.sendbird.com/basic/" onclick ="disclaimer()">Chat</a>
+		
 		<a href="#" onclick ="disclaimer()">Call</a>
+		
+		<a href="resources.php">Resources</a>
 	</div>
 	<script>
 		function disclaimer(){
