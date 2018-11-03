@@ -4,9 +4,10 @@
 
 	<title>Text</title>
 
-	<link rel="stylesheet" type="text/css" href="/connect/text/css/main.css">
 
 	<?php include '../../includes/header.html';?>
+
+	<link rel="stylesheet" type="text/css" href="/connect/text/css/main.css">
 
 <div>Text page</div>
 

@@ -8,7 +8,7 @@
 
 	<?php include '../../includes/header.html';?>
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="/user/new/css/main.css">
 
 
 	<div>
