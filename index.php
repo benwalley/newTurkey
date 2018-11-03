@@ -12,16 +12,21 @@
 	
 
 	
+	<div class = "mainWrapper">
+		<div class = "talkTextButtons">
+			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>
+			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
 
-	<div>
-		<a href="#">Talk to an Angel</a>
+		</div>
+		<div class = "mainButton login">
+			<a href="/user/login">Login</a>
+		</div>
+		<div class = "mainButton create">
+			<a href="/user/new">Create Account</a>
+		</div>
 	</div>
-	<div>
-		<a href="/user/login">Login</a>
-	</div>
-	<div>
-		<a href="/user/new">Create Account</a>
-	</div>
+		
+	
 
 	<script type="text/javascript" src = "js/main.js"></script>
 
