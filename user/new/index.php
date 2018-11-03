@@ -4,9 +4,11 @@
 
 	<title>Create User</title>
 
-	<link rel="stylesheet" type="text/css" href="/user/new/css/main.css">
+	
 
 	<?php include '../../includes/header.html';?>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 
 	<div>
@@ -17,5 +19,5 @@
 		</form>
 	</div>
 
-	<script type="text/javascript" src = "/user/new/js/main.js"></script>
+	<script type="text/javascript" src = "js/main.js"></script>
 <?php include '../../includes/footer.html';?>

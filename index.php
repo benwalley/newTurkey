@@ -4,9 +4,11 @@
 
 	<title>Home</title>
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<?php include 'includes/header.html';?>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
 	
 
 	

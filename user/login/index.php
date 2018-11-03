@@ -4,9 +4,9 @@
 
 	<title>Login</title>
 
-	<link rel="stylesheet" type="text/css" href="/user/login/css/main.css">
-
 	<?php include '../../includes/header.html';?>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 
 	<div>
