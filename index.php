@@ -4,26 +4,37 @@
 
 	<title>Home</title>
 
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<?php include 'includes/header.html';?>
-	
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	
 
-	<div>
-		<h1>Talk to an Angel</h1>
-		<a href="https://sample.sendbird.com/basic/" onclick ="disclaimer()">Chat</a>
-		
-		<a href="#" onclick ="disclaimer()">Call</a>
-		
-		<a href="resources.php">Resources</a>
-		<a href="\Blog">Angel Stories</a>
-	</div>
+	
+	<div class = "mainWrapper">
+		<div class = "talkTextButtons">
+			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>
+			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
+    </div>
+          <div class = "mainButton login">
+            <a href="/user/login">Login</a>
+          </div>
+          <div class = "mainButton create">
+            <a href="/user/new">Create Account</a>
+          </div>
+
+   <div>
+     
+     
+          <h1>Talk to an Angel</h1>
+          
+        <a href="https://sample.sendbird.com/basic/" onclick ="disclaimer()">Chat</a>
+          <a href="#" onclick ="disclaimer()">Call</a>
+
+          <a href="resources.php">Resources</a>
+        </div>
 	<script>
 		function disclaimer(){
 			alert("DISCLAIMER /n Lorem ipsum dolor sit amet, " +
@@ -39,7 +50,10 @@
 	</div>
 	<div>
 		<a href="/user/new">Create Account</a>
+
 	</div>
+		
+	
 
 	<script type="text/javascript" src = "js/main.js"></script>
 

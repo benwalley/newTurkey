@@ -4,10 +4,10 @@
 
 	<title>Call</title>
 
-	<link rel="stylesheet" type="text/css" href="/connect/call/css/main.css">
 
 	<?php include '../../includes/header.html';?>
 
+	<link rel="stylesheet" type="text/css" href="/connect/call/css/main.css">
 
 
 <div>Call page</div>
