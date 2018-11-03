@@ -19,6 +19,7 @@
 			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
 
 		</div>
+
 		<div class = "mainButtons">
 			<div class = "mainButton login">
 				<a href="/user/login">Login</a>
@@ -46,6 +47,7 @@
 			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
 
 		</div>
+
 		<div class = "mainButton login">
 			<a href="/user/login">Login</a>
 		</div>
