@@ -25,6 +25,10 @@ body {
 	color:white;
 }
 
+.mainButton:hover {
+	box-shadow:0 0 15px #27272782;
+}
+
 .talkButton {
 	border-top-left-radius:500px;
 	border-bottom-left-radius:500px;
@@ -46,6 +50,10 @@ body {
 	float:left;
 	font-size:5em;
 	color:white;
+}
+
+.talkTextButton:hover {
+	box-shadow:1px 7px 30px grey;
 }
 
 .talkTextButtons {
