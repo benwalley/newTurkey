@@ -1,5 +1,6 @@
 html, body {
      height: 100%;
+	 font-family: 'Ubuntu', sans-serif;
 }
 h1{
 	color:white;
@@ -10,7 +11,8 @@ form {
 body{
 	text-align: center;
 	background-image: linear-gradient(purple,#4fdeff);
-    
+	background-image: no-repeat;
+	background-size: cover;
 }
 input[type=text], select {
     width: 100%;
@@ -20,4 +22,16 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+table{
+	text-decoration: none;
+	color:white;
+}
+.button, #submit {
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 5px;
+  border-radius: 5px;
+  margin:auto;
 }
