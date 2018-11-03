@@ -1,10 +1,11 @@
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <title>Chatkit demo</title>
+    <title>Chat</title>
   </head>
   <body>
-    <ul id="message-list"></ul>
+	
+    <ul id="message-list">List for Chat</ul>
     <form id="message-form">
       <input type='text' id='message-text'>
       <input type="submit">
@@ -24,10 +25,12 @@
       chatManager
         .connect()
         .then(currentUser => {
+			console.log(currentUser);
           currentUser.subscribeToRoom({
             roomId: currentUser.rooms[0].id,
             hooks: {
               onMessage: message => {
+			  console.log(message)
                 const ul = document.getElementById("message-list");
                 const li = document.createElement("li");
                 li.appendChild(
@@ -42,6 +45,7 @@
           form.addEventListener("submit", e => {
             e.preventDefault();
             const input = document.getElementById("message-text");
+			console.log(input, input.value)
             currentUser.sendMessage({
               text: input.value,
               roomId: currentUser.rooms[0].id

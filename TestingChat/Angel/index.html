@@ -28,6 +28,7 @@
             roomId: currentUser.rooms[0].id,
             hooks: {
               onMessage: message => {
+			  console.log('test');
                 const ul = document.getElementById("message-list");
                 const li = document.createElement("li");
                 li.appendChild(

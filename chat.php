@@ -2,11 +2,7 @@
 <html>
 <head>
 
-	<title>Home</title>
-
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Chat</title>
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -17,7 +13,7 @@
 
 	<div>
 		<h1>Talk to an Angel</h1>
-		<a href="https://sample.sendbird.com/basic/" onclick ="disclaimer()">Chat</a>
+		<a href="#" oanclick ="disclaimer()">Chat</a>
 		<a href="#" onclick ="disclaimer()">Call</a>
 	</div>
 	<script>
