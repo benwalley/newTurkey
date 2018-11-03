@@ -1,5 +1,3 @@
-
-
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="/includes/css/main.css">
@@ -15,12 +13,38 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-	<div class = "navbar">
-		<button class = "nav-back"><a href="../"><i class="fas fa-arrow-left"></i></a></button>
-		<button class = "nav-logo">Borrow My Angel</button>
-		<button class = "link">Link!</button>	
-	</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+  <p>Borrow my Angel</p>
+
+  <a href="resources.php">Resources</a>
+  <a href="blog/index.php">Resources</a>
+  <a href="user/apply/index.php">Apply to be an Angel</a>
+  <a href="donate.php">Donate</a>
+  <a href="#">Contact</a>
+</div>
+<div class = "navbar">
+    <button class = "nav-back"><a href="../"><i class="fas fa-arrow-left"></i></a></button>
+    <button class = "nav-logo">Borrow My Angel</button>
+    <span style="font-size:30px;cursor:pointer" class="menuBtn"onclick="openNav()">☰</span>
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
