@@ -4,21 +4,30 @@
 
 	<title>Apply to be an Angel</title>
 
-	<link rel="stylesheet" type="text/css" href="/user/apply/css/main.css">
+    <?php include '../../includes/header.html';?>
 
-	<?php include '../../includes/header.html';?>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
+    <link rel="stylesheet" type="text/css" href="/user/apply/css/main.css">
+    
 	<div>
 		<form>
+            <span>
             <label>
-                Name:
+                <span>Name:</span>
             <input name="fullName" placeholder="Full Name"required>
             </label>
+            </span>
+            <span>
             <label>
-                Maiden name, if applicable:
+                <span>Maiden name, if applicable:</span>
             <input name="mname" placeholder="Maiden Name">
             </label>
+</span>
             <label>
                 Address:
             <input name="address" placeholder="Address"required>
@@ -35,7 +44,7 @@
                 Phone Number
             <input name="phone" placeholder="Phone"required>
             </label>
-            <h>References</h>
+            <h3>References</h3>
             <label>
                 Reference Name:
             <input name="reference1Name" placeholder="Reference Name"required>
@@ -73,9 +82,9 @@
             <textarea name="prevVolunteer" placeholder="Enter here" required></textarea>
             </label>
             <input type="checkbox" name="bgCheckConsent" value="Approved" required> By checking this box
-                you agree to a background check<br>
+                you agree to a background check.<br>
             <label>
-                Have you ever been covicted of a crime?            
+                Have you ever been convicted of a crime?            
             <input type="radio" name="convicted" value="yes"> Yes 
             <input type="radio" name="convicted" value="no"> No<br>
             </label>
@@ -94,15 +103,15 @@
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Thanks for Applying!</h4>
+                            <h4 class="modal-title">Thanks for Applying!</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         <div class="modal-body">
-                        <p>Thank you for your interest in becoming an Angel. Your information 
-                            will be reviewed, and you will be notified via email within 5-7 business days.</p>
+                            <p>Thank you for your interest in becoming an Angel. Your information 
+                                will be reviewed, and you will be notified via email within 5-7 business days.</p>
                         </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                     
