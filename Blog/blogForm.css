@@ -1,0 +1,23 @@
+html, body {
+     height: 100%;
+}
+h1{
+	color:white;
+}
+form {
+	color:white;
+}
+body{
+	text-align: center;
+	background-image: linear-gradient(purple,#4fdeff);
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
