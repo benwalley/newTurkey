@@ -1,125 +1,181 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-	<title>Apply to be an Angel</title>
+    <title>Apply to be an Angel</title>
 
     <?php include '../../includes/header.html';?>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/user/apply/css/main.css">
-    
-	<div>
-		<form>
-            <span>
-            <label>
-                <span>Name:</span>
-            <input name="fullName" placeholder="Full Name"required>
-            </label>
-            </span>
-            <span>
-            <label>
-                <span>Maiden name, if applicable:</span>
-            <input name="mname" placeholder="Maiden Name">
-            </label>
-</span>
-            <label>
-                Address:
-            <input name="address" placeholder="Address"required>
-            </label>
-            <label>
-                State
-            <input name="state" placeholder="State"required>
-            </label>
-            <label>
-                Zip Code
-            <input name="zip" placeholder="Zip Code"required>
-            </label>
-            <label>
-                Phone Number
-            <input name="phone" placeholder="Phone"required>
-            </label>
-            <h3>References</h3>
-            <label>
-                Reference Name:
-            <input name="reference1Name" placeholder="Reference Name"required>
-            </label>
-            <label>
-                Reference Email:
-            <input name="reference1Email" placeholder="Reference Email"required>
-            </label>
-            <label>
-                Reference Phone:
-            <input name="reference1Phone" placeholder="Reference Phone"required>
-            </label>
-            <label>
-                Reference Name:
-            <input name="reference2Name" placeholder="Reference Name">
-            </label>
-            <label>
-                Reference Email:
-            <input name="reference2Email" placeholder="Reference Email">
-            </label>
-            <label>
-                Reference Phone:
-            <input name="reference2Phone" placeholder="Reference Phone">
-            </label>
-            <label>
-                Give some reasons for why you would like to be a Angel:
-            <textarea name="reasonsWhy" placeholder ="Enter your reasons here" required></textarea>
-            </label>
-            <label>
-                Enter all previous experience helping others who are in crisis:
-            <textarea name="prevExp" placeholder="Enter all previous crisis experience here" required></textarea>
-            </label>
-            <label>
-                Enter all previous volunteer experience:
-            <textarea name="prevVolunteer" placeholder="Enter here" required></textarea>
-            </label>
-            <input type="checkbox" name="bgCheckConsent" value="Approved" required> By checking this box
-                you agree to a background check.<br>
-            <label>
-                Have you ever been convicted of a crime?            
-            <input type="radio" name="convicted" value="yes"> Yes 
-            <input type="radio" name="convicted" value="no"> No<br>
-            </label>
-            <label>
-                If yes, explain what it was for and what happened.
-            <textarea name="convictionExplanation" placeholder="If yes, explain why and what happened.">
-                </textarea>
+
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Application to be an Angel</div>
+        <form>
+
+            <div class="topfillform">
+                <label>
+                    <div class="textlabel">Name</div>
+                    <input class="textform" class="textform" name="fullName" placeholder="Full Name">
                 </label>
-            
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Maiden name, if applicable</div>
+                    <input class="textform" name="mname" placeholder="Maiden Name">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Address</div>
+                    <input class="textform" name="address" placeholder="Address">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">State</div>
+                    <input class="textform" name="state" placeholder="State">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Zip Code</div>
+                    <input class="textform" name="zip" placeholder="Zip Code">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Phone Number</div>
+                    <input class="textform" name="phone" placeholder="Phone">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <h4>References</h4>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 1 Name</div>
+                    <input class="textform" name="reference1Name" placeholder="Reference 1 Name">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 1 Email</div>
+                    <input class="textform" name="reference1Email" placeholder="Reference 1 Email">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 1 Phone</div>
+                    <input class="textform" name="reference1Phone" placeholder="Reference 1 Phone">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 2 Name:</div>
+                    <input class="textform" name="reference2Name" placeholder="Reference 2 Name">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 2 Email</div>
+                    <input class="textform" name="reference2Email" placeholder="Reference 2 Email">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Reference 2 Phone</div>
+                    <input class="textform" name="reference2Phone" placeholder="Reference 2 Phone">
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">Why do you want to be a Angel?</div>
+                    <textarea class="textareaform" name="reasonsWhy"></textarea>
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">List all experience helping others in a crisis.</div>
+                    <textarea class="textareaform" name="prevExp"></textarea>
+                </label>
+            </div>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">List all volunteer experience.</div>
+                    <textarea class="textareaform" name="prevVolunteer"></textarea>
+                </label>
+            </div>
+
+            <div id="backgroundCheck">
+                <input type="checkbox" name="bgCheckConsent" value="Approved"> By checking this box you agree to a background check.
+                <br>
+            </div>
+
+            <label class="fillform">
+                <div class="textlabel">Have you ever been convicted of a crime?</div>
+                <input type="radio" name="convicted" value="yes"> Yes
+                <input type="radio" name="convicted" value="no"> No
+                <br>
+            </label>
+
+            <div class="fillform">
+                <label>
+                    <div class="textlabel">If yes, explain why.</div>
+                    <textarea class="textareaform" name="convictionExplanation">
+            </textarea>
+                </label>
+            </div>
+
             <div class="container">
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+                <button type="submit" class="btn btn-primary btn-lgm btn-block" data-toggle="modal" data-target="#myModal">Submit</button>
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" role="dialog">
                     <div class="modal-dialog">
-                    
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Thanks for Applying!</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Thank you for your interest in becoming an Angel. Your information 
-                                will be reviewed, and you will be notified via email within 5-7 business days.</p>
-                        </div>
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Thanks for applying!</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Thank you for your interest in becoming an Angel. Your information will be reviewed, and
+                                    you will be notified via email within 5-7 business days.</p>
+                            </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                    </div>
-                    
+
                     </div>
                 </div>
-		</form>
-	</div>
+        </form>
+        </div>
 
-	<script type="text/javascript" src = "/user/apply/js/main.js"></script>
+        <script type="text/javascript" src="/user/apply/js/main.js"></script>
 
-<?php include '../../includes/footer.html';?>
+        <?php include '../../includes/footer.html';?>
