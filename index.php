@@ -3,12 +3,9 @@
 <head>
 
 	<title>Home</title>
-
-
 	<?php include 'includes/header.html';?>
 
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 	
 	<div class = "mainWrapper">
 		<div class = "talkTextButtons">
@@ -23,15 +20,6 @@
           </div>
 
    <div>
-     
-     
-          <h1>Talk to an Angel</h1>
-          
-        <a href="https://sample.sendbird.com/basic/" onclick ="disclaimer()">Chat</a>
-          <a href="#" onclick ="disclaimer()">Call</a>
-
-          <a href="resources.php">Resources</a>
-        </div>
 	<script>
 		function disclaimer(){
 			alert("DISCLAIMER /n Lorem ipsum dolor sit amet, " +
@@ -41,17 +29,6 @@
 			"augue euismod sodales.");
 		}
 	</script>
-	
-	<div>
-		<a href="/user/login">Login</a>
-	</div>
-	<div>
-		<a href="/user/new">Create Account</a>
-
-	</div>
-		
-	
-
 	<script type="text/javascript" src = "js/main.js"></script>
 
 <?php include 'includes/footer.html';?>
