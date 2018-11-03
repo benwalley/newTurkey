@@ -14,8 +14,18 @@
 	
 	<div style="color:white; font-family: 'Ubuntu', sans-serif; text-align: center; ">
 		<h1 >Resources</h1>
-		<a href="localResources.htm">Local Resources</a>
-		<a href="localResources.htm">National Resources</a>
+		<a href="localResources.htm" style="  text-decoration: none;
+			  background-color: #EEEEEE;
+			  color: #333333;
+			  padding: 5px;
+			  border-radius: 5px;
+			  margin:auto;">Local Resources</a>
+		<a href="localResources.htm" style="  text-decoration: none;
+			  background-color: #EEEEEE;
+			  color: #333333;
+			  padding: 5px;
+			  border-radius: 5px;
+			  margin:auto;">National Resources</a>
 	</div>
 
 <?php include 'includes/footer.html';?>

@@ -6,7 +6,7 @@
 	<?php include 'includes/header.html';?>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
 	<div class = "mainWrapper">
 		<div class = "talkTextButtons">
 			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>

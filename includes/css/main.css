@@ -9,22 +9,24 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #4d00ff;
+    background-color: #9500b7;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+	color:white;
 }
  .sidenav a, .sidenav p {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     overflow-x: hidden;
-    color: #818181;
+    color:  #deceff;
     display: block;
     transition: 0.2s;
 }
 .sidenav a:hover {
-    color: #f1f1f1;
+    color:white;
+	text-shadow: 2px 2px 8px white;
 }
 .menuBtn{
     float:right;
@@ -37,6 +39,7 @@
     margin-left: 50px;
 }
 .navbar{
+	font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
 @media screen and (max-height: 450px) {
