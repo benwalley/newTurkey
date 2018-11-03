@@ -12,8 +12,8 @@
 
 	<?php include 'includes/header.html';?>
 	
-	<div>
-		<h1>Resources</h1>
+	<div style="color:white; font-family: 'Ubuntu', sans-serif; text-align: center; ">
+		<h1 >Resources</h1>
 		<a href="localResources.htm">Local Resources</a>
 		<a href="localResources.htm">National Resources</a>
 	</div>
