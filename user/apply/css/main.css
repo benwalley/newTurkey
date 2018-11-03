@@ -1,6 +1,52 @@
-body {
-    background-color: #4dd9ff;
+.main {
+    align-content: center;
+    position: relative;
+    left: 38%;
+    width: 100%;
 }
-span{
-    display: block
+body{
+    background-color: #4dd9ff;
+    padding: 10px;
+    word-wrap: normal;
+}
+label{
+    overflow-wrap: break-word;
+    width: 100%;
+}
+.fillform{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.textform{
+    width: 80%;
+}
+.panel{
+    background-color: lightgray;
+}
+.textareaform{
+    left: 10%;
+    width: 80%;
+    height: 100px;
+}
+#backgroundCheck{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.textlabel{
+    padding-left: 20px;
+    text-align: left;
+}
+.panel-heading{
+    font-size: large;
+}
+.topfillform{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn{
+    margin-bottom: 10px;
+    
 }
