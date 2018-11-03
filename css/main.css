@@ -1,4 +1,7 @@
 
+.talkButton {
+
+}
 
 .mainWrapper{
 	width:100vw;
@@ -6,6 +9,7 @@
     background: linear-gradient(#40ffff, #4dd9ff);
     position:absolute;
     padding-top:75px;
+
 }
 
 .mainButton {
