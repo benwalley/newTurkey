@@ -79,3 +79,12 @@ button:focus{
 	letter-spacing: 3px ;
 }
 
+.textIcon {
+	width:65%;
+}
+
+.phoneIcon {
+	height:65%;
+	margin-left:-25px;
+}
+

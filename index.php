@@ -9,8 +9,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
 	<div class = "mainWrapper">
 		<div class = "talkTextButtons">
-			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>
-			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
+			<button class = "talkTextButton talkButton"><img class = "phoneIcon" src="/assets/icons/white_phone.svg"></button>
+			<button class = "talkTextButton textButton"><img class = "textIcon" src="/assets/icons/MultichatBubbles.svg"></button>
     </div>
           <div class = "mainButton login">
             <a href="/user/login">Login</a>
