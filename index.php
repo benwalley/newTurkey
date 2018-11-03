@@ -32,12 +32,14 @@
 
 		</div>
 
-		<div class = "mainButton login">
-			<a href="/user/login">Login</a>
-		</div>
-		<div class = "mainButton create">
-			<a href="/user/new">Create Account</a>
-		</div>
+		<DIV class = "mainButtons">
+			<div class = "mainButton login">
+				<a href="/user/login">Login</a>
+			</div>
+			<div class = "mainButton create">
+				<a href="/user/new">Create Account</a>
+			</div>
+		</DIV>
 	</div>
 		
 	

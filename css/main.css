@@ -1,6 +1,6 @@
-
-.talkButton {
-
+body {
+	height:100vh;
+	overflow:hidden;
 }
 
 .mainWrapper{
@@ -8,18 +8,18 @@
 	height: 100vh;
     background: linear-gradient(#40ffff, #4dd9ff);
     position:absolute;
-    padding-top:75px;
+    padding-top:50px;
 
 }
 
 .mainButton {
 	width:80%;
-	margin: 10% auto;
+	margin: 30px auto;
 	text-align:center;
 	text-transform:uppercase;
-	padding:30px;
+	padding:15px;
 	background: #00bfff;
-	font-size:3em;
+	font-size:1em;
 	color:white;
 	border-radius:10px;
 	color:white;
@@ -44,15 +44,21 @@
 	width:50%;
 	background:#4dd9ff;
 	float:left;
-	font-size:17em;
+	font-size:5em;
 	color:white;
 }
 
 .talkTextButtons {
-	height:80vw;
-	width:80vw;
+	height:70vw;
+	width:70vw;
 	margin:0 auto;
+	max-width:400px;
+	max-height:400px;
 	transform:rotate(10deg);
+}
+
+.mainButtons {
+	padding-top:15px;
 }
 
 .mainButton a {
