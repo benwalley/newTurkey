@@ -27,7 +27,7 @@
 	
 	<div class = "mainWrapper">
 		<div class = "talkTextButtons">
-			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>
+			<button class = "talkTextButton talkButton"><img src="/assets/icons/white_phone.svg"></button>
 			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
 
 		</div>

@@ -56,6 +56,10 @@ body {
 	box-shadow:1px 7px 30px grey;
 }
 
+button:focus{
+	outline:none;
+}
+
 .talkTextButtons {
 	height:70vw;
 	width:70vw;
@@ -74,3 +78,4 @@ body {
 	font-weight:bold;
 	letter-spacing: 3px ;
 }
+
