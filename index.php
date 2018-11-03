@@ -5,6 +5,7 @@
 	<title>Home</title>
 
 
+
 	<?php include 'includes/header.html';?>
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -16,6 +17,7 @@
 		<div class = "talkTextButtons">
 			<button class = "talkTextButton talkButton"><i class="fas fa-phone"></i></button>
 			<button class = "talkTextButton textButton"><i class="fas fa-comments"></i></button>
+
 		</div>
 		<div class = "mainButtons">
 			<div class = "mainButton login">
@@ -25,7 +27,20 @@
 				<a href="/user/new">Create Account</a>
 			</div>
 		</div>
-	</div>
+
+     
+
+	<script>
+		function disclaimer(){
+			alert("DISCLAIMER /n Lorem ipsum dolor sit amet, " +
+			"consectetur adipiscing elit. Vivamus bibendum ornare nisi" +
+			"eu dapibus. Aenean sed sem nulla. Donec rutrum sem nec risus viverra," +
+			"vel sagittis mi vestibulum. Sed vehicula bibendum tellus. Nulla a sapien vitae" +
+			"augue euismod sodales.");
+		}
+	</script>
+	
+
 		
 	
 
