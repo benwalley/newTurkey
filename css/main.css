@@ -1,11 +1,14 @@
-
+body {
+	overflow:hidden;
+	height:100vh;
+}
 
 .mainWrapper{
 	width:100vw;
 	height: 100vh;
     background: linear-gradient(#40ffff, #4dd9ff);
     position:absolute;
-    padding-top:30%;
+    padding-top:15%;
 }
 
 .mainButton {
@@ -13,10 +16,9 @@
 	margin: 10% auto;
 	text-align:center;
 	text-transform:uppercase;
-	padding:30px;
+	padding:20px;
 	background: #00bfff;
-	font-size:3em;
-	color:white;
+	font-size:1em;
 	border-radius:10px;
 	color:white;
 }
@@ -40,13 +42,17 @@
 	width:50%;
 	background:#4dd9ff;
 	float:left;
-	font-size:17em;
+	font-size:5em;
 	color:white;
 }
 
+.talkTextButton:hover {
+	box-shadow:6px 1px 20px grey;
+}
+
 .talkTextButtons {
-	height:80vw;
-	width:80vw;
+	height:70vw;
+	width:70vw;
 	margin:0 auto;
 	transform:rotate(10deg);
 }
@@ -55,4 +61,16 @@
 	color:white;
 	font-weight:bold;
 	letter-spacing: 3px ;
+}
+
+.mainButton:hover {
+	box-shadow:2px 1px 30px #b3b3b366;
+	text-decoration:none;
+}
+
+.mainButtons {
+	bottom:10%;
+	position:absolute;
+	width:100%;
+
 }
