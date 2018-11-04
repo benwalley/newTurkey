@@ -18,10 +18,21 @@ label{
     text-align: center;
 }
 .textform{
-    width: 80%;
+    width: 90%;
+    padding: 10px 20px;
+    background: #fffcfc4d;
+    border: 2px solid white;
+    border-radius: 100px;
+    outline:none !important;
+    transition:all .3s;
+}
+
+.textform:focus {
+    background:white;
 }
 .panel{
-    background-color: lightgray;
+    background:none;
+    border:none;
 }
 .textareaform{
     left: 10%;
@@ -35,11 +46,26 @@ label{
     text-align: center;
 }
 .textlabel{
-    padding-left: 20px;
-    text-align: left;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1.12em;
+    letter-spacing: 1px;
 }
 .panel-heading{
     font-size: large;
+    text-align:center;
+    color:white !important;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-size:1.5em;
+    background:none !important;
+    border-color:#6f6f6f !important;
+}
+
+.panel-header:focus {
+    outline:none;
+
 }
 .topfillform{
     padding-top: 10px;

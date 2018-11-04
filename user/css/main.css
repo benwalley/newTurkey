@@ -1,0 +1,36 @@
+ .mainContainer {
+ 	background:blue;
+
+ }
+
+ .pageTitle {
+ 	text-align:center;
+ 	color:white;
+ }
+
+ body {
+ 	background:#4dd9ff;
+ }
+
+.talkTextButton {
+	width:50%;
+	margin-left:25%;
+}
+
+.textButton {
+	width:35%;
+	margin-left:32.5%;
+}
+
+.phoneIcon {
+	width:100%;
+	transform:rotate(-68deg);
+}
+
+.logout {
+	padding: 10px 20px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	color:#3364dc;
+}
