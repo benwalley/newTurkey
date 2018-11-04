@@ -8,8 +8,19 @@ body {
 	height: 100vh;
     background: linear-gradient(#40ffff, #4dd9ff);
     position:absolute;
-    padding-top:50px;
 
+}
+
+
+.homeInstructions {
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin:10px;
+	text-shadow:1px 1px 5px #545454;
+	font-weight:bold;
 }
 
 .mainButton {
@@ -143,3 +154,4 @@ button:focus{
 	color:black;
 	text-decoration: none;
 }
+

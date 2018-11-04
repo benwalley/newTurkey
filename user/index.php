@@ -10,10 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="/user/css/main.css">
 
 	<div>
-		<h1>This is my dashboard</h1>
+		<h1>Your home page</h1>
 		<button>Call</button>
 		<button>Text</button>
 	</div>
+
+	<button onclick="handleLogout()">logout</button>
 
 	<script type="text/javascript" src = "/user/js/main.js"></script>
 

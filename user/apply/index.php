@@ -18,7 +18,7 @@
 
 
     <div class="panel panel-default">
-        <div class="panel-heading">Application to be an Angel</div>
+        <div class="panel-heading">Apply to be an Angel</div>
         <form>
 
             <div class="topfillform">
