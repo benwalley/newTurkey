@@ -3,21 +3,22 @@ xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Excel.Sheet>
-<meta name=Generator content="Microsoft Excel 15">
-<link href="Blog/css/blogForm.css" rel="stylesheet">
-<link rel=File-List href="BorrowMyAngel-Resources-Local-2018_files/filelist.xml">
-<style id="BorrowMyAngel-Resources-Local-2018_24914_Styles">
-
-</style>
+	<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+	<meta name=ProgId content=Excel.Sheet>
+	<meta name=Generator content="Microsoft Excel 15">
+	<link href="../Blog/css/blogForm.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
+	<link rel=File-List href="BorrowMyAngel-Resources-Local-2018_files/filelist.xml">
+	<style id="BorrowMyAngel-Resources-Local-2018_24914_Styles">
+	</style>
+	<?php include '../includes/header.html';?>
 </head>
 
 <body>
 
 
-<div id="BorrowMyAngel-Resources-Local-2018_24914" align=center
-x:publishsource="Excel">
+	<div id="BorrowMyAngel-Resources-Local-2018_24914" align=center
+	x:publishsource="Excel">
 
 <table border=0 cellpadding=0 cellspacing=0 width=3032 style='border-collapse:
  collapse;table-layout:fixed;width:2274pt'>
@@ -746,19 +747,7 @@ x:publishsource="Excel">
   
   
  </tr>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
 
 </table>
@@ -766,9 +755,7 @@ x:publishsource="Excel">
 </div>
 
 
-<!----------------------------->
-<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
-<!----------------------------->
+<?php include '../includes/footer.html';?>
 </body>
 
 </html>

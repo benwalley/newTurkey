@@ -1,14 +1,15 @@
 body {
 	height:100vh;
 	overflow:hidden;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .mainWrapper{
 	width:100vw;
 	height: 100vh;
-    background: linear-gradient(#40ffff, #4dd9ff);
+	background-image:linear-gradient(#0066ff,#4dd9ff);
     position:absolute;
-
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -17,10 +18,10 @@ body {
 	color:white;
 	font-size:1.5em;
 	letter-spacing:2px;
-	text-transform:uppercase;
 	margin:10px;
 	text-shadow:1px 1px 5px #545454;
 	font-weight:bold;
+	text-decoration:none;
 }
 
 .mainButton {
@@ -29,7 +30,7 @@ body {
 	text-align:center;
 	text-transform:uppercase;
 	padding:15px;
-	background: #00bfff;
+	background: #0066ff;
 	font-size:1em;
 	color:white;
 	border-radius:10px;
@@ -57,7 +58,7 @@ body {
 .talkTextButton {
 	height:100%;
 	width:50%;
-	background:#4dd9ff;
+	background: #4dd9ff;
 	float:left;
 	font-size:5em;
 	color:white;
