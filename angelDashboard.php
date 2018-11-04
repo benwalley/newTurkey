@@ -4,6 +4,7 @@
 
 	<title>Home</title>
 	<?php include 'includes/header.html';?>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
@@ -26,7 +27,17 @@
 	</script>
 	<script type="text/javascript" src = "js/main.js"></script>
 
-	<button class="availability">Available</button>
-	<button class="availability">Unavilable</button>
-	<button class="availability">Do Not Disturb</button>
+	
+	<div class="availabilityContainer">
+	
+		<button class="availability">Available</button>
+		<button class="availability">Unavilable</button>
+		<button class="availability">Do Not Disturb</button>
+		
+	</div>
+	<div id="angelLinks">
+		<a href="">My Schedule</a>
+		<a href="">Trainings</a>
+	</div>
+	
 <?php include 'includes/footer.html';?>

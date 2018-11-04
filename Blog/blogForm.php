@@ -20,9 +20,6 @@
 			What's your story: <input id = "Story" type="text" name="Story" value="Story" style="width:60%;"><br>
 			<input id = "submit"type="submit" value="Submit for Review">
 		</form>
-		
-		
-		
 	
 
 	</body>
