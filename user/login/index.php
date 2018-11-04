@@ -7,7 +7,7 @@
 	<?php include '../../includes/header.html';?>
 
 
-	<img class = "logoimage resize"  src= "/assets/photos/logo.svg" alt="Borrow My Angel Logo">
+	<img class = "logoimage resize"  src= "/assets/photos/Logo_White.svg" alt="Borrow My Angel Logo">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/user/login/css/main.css">
 	<div class="loginForm">
