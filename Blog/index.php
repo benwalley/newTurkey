@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Blog Home - Start Bootstrap Template</title>
-
+	<?php include '../includes/header.html';?>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/blog-home.css" rel="stylesheet">
+	<link href="css/blogForm.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400" rel="stylesheet">
 
   </head>
 
@@ -33,7 +34,7 @@
 	  
 	  
 	  
-		<a href="blogForm.php">Submit your story</a>
+		<a href="blogForm.php" class="button">Submit your story</a>
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 		
@@ -75,7 +76,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+	<?php include '../includes/footer.html';?>
   </body>
 
 </html>

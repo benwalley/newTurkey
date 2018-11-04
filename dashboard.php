@@ -12,14 +12,9 @@
 			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><i class="fas fa-phone"></i></button>
 			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><i class="fas fa-comments"></i></button>
     </div>
-          <div class = "mainButton login">
-            <a href="/user/login">Login</a>
-          </div>
-          <div class = "mainButton create">
-            <a href="/user/new">Create Account</a>
-          </div>
 
-   <div>
+
+	
 	<script>
 		function disclaimer(){
 			alert("DISCLAIMER /n Lorem ipsum dolor sit amet, " +
@@ -31,4 +26,7 @@
 	</script>
 	<script type="text/javascript" src = "js/main.js"></script>
 
+	<button class="availability">Available</button>
+	<button class="availability">Unavilable</button>
+	<button class="availability">Do Not Disturb</button>
 <?php include 'includes/footer.html';?>
