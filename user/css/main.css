@@ -12,51 +12,25 @@
  	background:#4dd9ff;
  }
 
-
-.talkButton {
-	border-top-left-radius:500px;
-	border-bottom-left-radius:500px;
-	border:none;
-	border-right:2px solid white;
-}
-
-.textButton{
-	border-top-right-radius:500px;
-	border-bottom-right-radius:500px;
-	border:none;
-	border-left: 2px solid white;
-}
-
 .talkTextButton {
-	height:100%;
 	width:50%;
-	background:#4dc2ff;
-	float:left;
-	font-size:5em;
-	color:white;
+	margin-left:25%;
 }
 
-.talkTextButton:hover {
-	box-shadow:1px 7px 30px grey;
+.textButton {
+	width:35%;
+	margin-left:32.5%;
 }
 
-button:focus{
-	outline:none;
-}
-
-.talkTextButtons {
-	height:70vw;
-	width:70vw;
-	margin:0 auto;
-	max-width:400px;
-	max-height:400px;
-	transform:rotate(10deg);
+.phoneIcon {
+	width:100%;
+	transform:rotate(-68deg);
 }
 
 .logout {
-	color:blue;
+	padding: 10px 20px;
 	position:absolute;
 	bottom:0;
 	right:0;
-	padding:10px 20px;
+	color:#3364dc;
 }
