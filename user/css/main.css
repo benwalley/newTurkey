@@ -10,21 +10,34 @@
 
  body {
  	background:#4dd9ff;
+ 	/*background-image:url('/assets/photos/Background.jpg');*/
+ 	background-size:cover;
+ 	background-position:center;
+ 	min-height:100vh;
  }
 
 .talkTextButton {
-	width:50%;
-	margin-left:25%;
+	width:80%;
+	margin-left:10%;
+	font-size:6em;
+	color:white;
+	text-shadow:2px 1px 20px dimgrey;
+	height:22vh;
+
 }
 
-.textButton {
-	width:35%;
-	margin-left:32.5%;
+.talkTextButton:hover {
+	text-shadow:0 0 10px grey;
+	font-size:5.5em;
+}
+
+.talkTextButtons{
+	border-bottom: 1px solid black;
+    padding-bottom: 15px;
 }
 
 .phoneIcon {
-	width:100%;
-	transform:rotate(-68deg);
+	transform:rotate(80deg);
 }
 
 .logout {
@@ -33,4 +46,22 @@
 	bottom:0;
 	right:0;
 	color:#3364dc;
+}
+
+.dashboardInstructions {
+	color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px #6f6f6f;
+}
+
+.editUser {
+	color:white;
+	font-size:5em;
+	padding:20px;
 }

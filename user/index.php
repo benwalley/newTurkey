@@ -10,15 +10,19 @@
 	<link rel="stylesheet" type="text/css" href="/user/css/main.css">
 
 	<div class = "mainContaier">
-		<h1 class = "pageTitle">Your home page</h1>
 		<div class = "talkTextButtons">
-			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><img class = "phoneIcon" src="/assets/icons/white_phone.svg"></button>
-			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><img class = "textIcon" src="/assets/icons/MultichatBubbles.svg"></button>
+			<div class = "dashboardInstructions">Call an Angel</div>
+			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><i class="phoneIcon fas fa-phone"></i></button>
+			<div class = "dashboardInstructions">Message an Angel</div>
+			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><i class="fas fa-comments"></i></button>
     	</div>
-		
+
+    	<div class = "editUser"><i class="fas fa-user-edit"></i></div>
+
+		<button class = "logout" onclick="handleLogout()">logout</button>
 	</div>
 
-	<button class = "logout" onclick="handleLogout()">logout</button>
+	
 
 	<script type="text/javascript" src = "/user/js/main.js"></script>
 

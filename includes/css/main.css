@@ -43,6 +43,27 @@
     box-sizing: border-box;
     background:white;
 }
+
+.navbar:after {
+    content:none !important;
+}
+.navbar:before {
+    content:none !important;
+}
+.nav-logo {
+    width:60px;
+    white-space:nowrap;
+    margin-left:-125px;
+}
+
+button {
+    background:none;
+    border:none;
+}
+
+*:focus {
+    outline:none !important;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}

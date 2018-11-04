@@ -41,3 +41,11 @@ function myNo(){
  window.history.back();
  return false;
 }
+
+window.addEventListener('keypress', function (e) {
+    var key = e.which || e.keyCode;
+    if (key === 13) { // 13 is enter
+     e.preventDefault()
+     functionConfirm("Are you over the age of 13?")
+    }
+});
