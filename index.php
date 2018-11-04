@@ -11,8 +11,8 @@
 	<div class = "mainWrapper">
 		<div class = "homeInstructions">Talk with an Angel</div>
 		<div class = "talkTextButtons">
-			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><i class="fas fa-phone"></i></button>
-			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><i class="fas fa-comments"></i></button>
+			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><img class = "phoneIcon" src="/assets/icons/white_phone.svg"></button>
+			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><img class = "textIcon" src="/assets/icons/MultichatBubbles.svg"></button>
     </div>
     <div class = "homeInstructions">Or</div>
           <div class = "mainButton login">
