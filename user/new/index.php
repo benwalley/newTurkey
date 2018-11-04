@@ -7,7 +7,7 @@
 	<?php include '../../includes/header.html';?>
 
 
-	<!-- <img class = "logoimage" src= "/assets/photos/logo.svg" alt="Borrow My Angel Logo"> -->
+	 <img class = "logoimage resize" src= "/assets/photos/logo.svg" alt="Borrow My Angel Logo">
 
 	<link rel="stylesheet" type="text/css" href="/user/login/css/main.css">
 	<div class="loginForm">
@@ -63,7 +63,7 @@
 
 		</div>
 		<div class="formInput">
-			<button type="button" class="button btn btn-primary"  onclick=  >Login</button>
+			<button type="button" class="button btn btn-primary"  onclick=location.href='/user/login'  >Login</button>
 		</div>
 		</form>
 	</div>

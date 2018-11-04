@@ -16,7 +16,7 @@ function myYes(){
 
 
     //redirect to website
-     window.location.href = ("https://www.google.com/");
+     window.location.href = ("/user");
      return false;
 
 
