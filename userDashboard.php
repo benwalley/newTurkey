@@ -27,17 +27,5 @@
 	</script>
 	<script type="text/javascript" src = "js/main.js"></script>
 
-	
-	<div class="availabilityContainer">
-	
-		<button class="availability">Available</button>
-		<button class="availability">Unavilable</button>
-		<button class="availability">Do Not Disturb</button>
-		
-	</div>
-	<div id="angelLinks">
-		<a href="">My Schedule</a>
-		<a href="">Trainings</a>
-	</div>
-	
+
 <?php include 'includes/footer.html';?>
