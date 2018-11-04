@@ -1,6 +1,8 @@
 html, body {
      height: 100%;
 	 font-family: 'Ubuntu', sans-serif;
+	 text-align: center;
+	 margin: auto;
 }
 h1{
 	color:white;
@@ -34,6 +36,4 @@ table{
   padding: 5px;
   border-radius: 5px;
   margin:auto;
-}
-#donate{
 }

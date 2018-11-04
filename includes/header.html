@@ -21,19 +21,27 @@
 </head>
 <body>
 
+
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
+			  
+			
   <p>Borrow my Angel</p>
 
-  <a href="resources.php">Resources</a>
-  <a href="blog/index.html">Blog</a>
+  <a href="/user/apply/resources">Resources</a>
+  <a href="blog/index.php">Blog</a>
   <a href="user/apply/index.php">Apply to be an Angel</a>
   <a href="donate.php">Donate</a>
   <a href="#">Contact</a>
 </div>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
 <div class = "navbar">
-    <button class = "nav-back"><a href="../"><i class="fas fa-arrow-left"></i></a></button>
+    <button class = "nav-back" onclick="goBack()"><i class="fas fa-arrow-left"></i></button>
     <button class = "nav-logo">Borrow My Angel</button>
     <span style="font-size:30px;cursor:pointer" class="menuBtn"onclick="openNav()">☰</span>
 </div>
