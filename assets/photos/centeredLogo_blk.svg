@@ -5,6 +5,8 @@
 <style type="text/css">
 	.st0{fill:#231F20;}
 	.st1{fill:none;stroke:#221F1F;stroke-width:12;stroke-miterlimit:10;}
+	.st2{font-family:'Ubuntu-Regular';}
+	.st3{font-size:40px;}
 </style>
 <g>
 	<path class="st0" d="M23.4,55.2c3-0.2,5.8,0.2,8.6,1.6c5.7,2.8,8.4,9.9,5.8,15.7c-10.8,24-14.9,49.1-12.5,75.3
@@ -46,4 +48,5 @@
 	<path class="st0" d="M210.2,140.4c0.1,14.7-12.1,27.1-27,27.2c-14.9,0.2-27.4-12.2-27.5-27.3c0-14,11.8-26.9,27-27.2
 		C196.8,112.9,210.6,125.3,210.2,140.4z"/>
 </g>
+<text transform="matrix(1 0 0 1 25 44)" class="st2 st3">Borrow My Angel</text>
 </svg>
