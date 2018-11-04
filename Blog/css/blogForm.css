@@ -1,23 +1,24 @@
 html, body {
-     height: 100%;
 	 font-family: 'Ubuntu', sans-serif;
 	 text-align: center;
 	 margin: auto;
 }
 h1{
-	color:white;
+	color: Black;
 }
 form {
-	color:white;
+	color: Black;
 }
 body{
 	text-align: center;
-	background-image: linear-gradient(purple,#0074c7);
-	background-image: no-repeat;
+	background-image:linear-gradient(#0066ff,#4dd9ff);
+	background-repeat:no-repeat;
 	background-size: cover;
+	bottom:0;
 }
 input[type=text], select {
     width: 100%;
+	
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
