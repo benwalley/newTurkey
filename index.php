@@ -7,9 +7,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,700" rel="stylesheet">
-	
+
 	<div class = "mainWrapper">
-		<div class = "homeInstructions">Talk with an Angel</div>
+		<div class = "homeInstructions" >Talk with an Angel</div>
 		<div class = "talkTextButtons">
 			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><img class = "phoneIcon" src="/assets/icons/white_phone.svg"></button>
 			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><img class = "textIcon" src="/assets/icons/MultichatBubbles.svg"></button>
