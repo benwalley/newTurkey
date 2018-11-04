@@ -13,13 +13,13 @@
 	<div class="loginForm">
 		<form>
 		<div class="formInput">
-			<input type="email" name="email" placeholder="email">
+			<input class = "emailField" type="email" name="email" placeholder="email">
 		</div>
 		<div class="formInput">
-			<input type="password" name="password" placeholder = password>
+			<input class = "passwordField" type="password" name="password" placeholder = password>
 		</div>
 		<div class="formInput">
-			<input type="password" name="Confirm-password" placeholder = "Confirm password">
+			<input class = "passwordField" type="password" name="Confirm-password" placeholder = "Confirm password">
 		</div>
 		<div class="formInput">
 		<!--	<button class="button btn btn-primary" type="submit" onclick="functionConfirm(event)""; >Create a User</button> > -->

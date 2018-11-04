@@ -13,13 +13,13 @@
 	<div class="loginForm">
 		<form>
 		<div class="formInput">
-			<input type="email" name="email" placeholder="email">
+			<input class = "emailField" type="email" name="email" placeholder="email">
 		</div>
 		<div class="formInput">
-			<input type="password" name="password" placeholder = password>
+			<input class = "passwordField" type="password" name="password" placeholder = password>
 		</div>
 		<div class="formInput">
-			<button class="button btn btn-primary" type="button" onclick="location.href='/user'">Login</button>
+			<button class="button btn btn-primary" type="button" onclick="handleLogin()">Login</button>
 		</div>
 		<div class="formInput">
 			<button class="button btn btn-primary" type="button" onclick="location.href='/user/new'">Create Account</button>
