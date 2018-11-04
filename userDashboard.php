@@ -13,8 +13,6 @@
 			<button class = "talkTextButton talkButton" onclick ="disclaimer()"><i class="fas fa-phone"></i></button>
 			<button class = "talkTextButton textButton" onclick ="disclaimer()"a href="https://sample.sendbird.com/basic/" ><i class="fas fa-comments"></i></button>
     </div>
-
-
 	
 	<script>
 		function disclaimer(){
